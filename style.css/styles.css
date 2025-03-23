@@ -285,8 +285,7 @@ background: rgba(84, 144, 245, 0.2);
  }
 
  .vision{
-  color: rgba(14, 14, 14, 0.8);
-  font-family: Fira Sans;
+  color: rgba(14, 14, 14, 0.8); 
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
@@ -296,6 +295,55 @@ background: rgba(84, 144, 245, 0.2);
 
  .vision-description{
   color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+ }
+ /* adviser section */
+
+ .adviser-section{
+  box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+margin-top: 32px;
+
+gap: 24;
+padding: 48px 24px 48px 24px;
+
+
+
+
+ }
+
+ .adviser-description{
+color: rgba(14, 14, 14, 0.8);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+
+background: url("../assets/quote-bg.png");
+background-repeat: no-repeat;
+background-position: top left;
+background-size: 50px 50px ;
+
+ }
+
+ .adviser-title{
+color: rgba(14, 14, 14, 0.8);
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+ }
+
+ .adviser-subtitle{
+  color: rgba(14, 14, 14, 0.6);
   font-family: Fira Sans;
   font-size: 16px;
   font-weight: 400;
@@ -303,4 +351,3 @@ background: rgba(84, 144, 245, 0.2);
   letter-spacing: 0%;
   text-align: left;
  }
- 
