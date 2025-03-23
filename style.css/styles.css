@@ -1,0 +1,306 @@
+.fira-sans-normal {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+ /* nav section */
+ nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1300px;
+    height: 100px;
+    margin-left: 160px;
+    margin-right: 160px;
+  
+} 
+
+
+.nav-title{
+  color: rgb(14, 14, 14);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: left
+
+}
+
+nav ul li{
+   
+  list-style: none;
+  margin-right: 10px;
+
+}
+nav ul a{
+  text-decoration: none;
+  font-size: 20px;
+}
+
+nav ul{
+  display: flex;
+  align-items: center;
+}
+
+.btn-primary{
+  color: rgb(0, 106, 80);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  gap: 48;
+  padding: 15px 30px 15px 30px;
+  box-sizing: border-box;
+  border: 1px solid rgb(0, 106, 80);
+  border-radius: 8px;
+
+}
+
+
+/* banner content */
+.banner{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  height: auto; 
+  margin-left: 160px;
+  margin-right: 160px;
+ 
+  margin-bottom: 80px;
+  padding: 80px 100px;
+}
+.banner-content{
+  max-width: 500px;
+  height: 201px;
+}
+
+.banner-title{
+color: rgba(14, 14, 14, 0.5);
+font-size: 20px;
+
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+}
+.banner-subtitle{
+  color: rgb(14, 14, 14);
+font-size: 40px;
+font-weight: 700;
+line-height: 67px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.banner-btn{
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  gap: 48;
+  padding: 17px 34px 17px 34px;
+}
+
+/* shared style */
+.bg{
+border-radius: 24px;
+background: rgb(198, 228, 214);
+}
+
+/* pillars section 2.0 */
+
+.pillars-of-bd-container{
+  max-width: 1200px;
+  height: auto; 
+  margin-left: 160px;
+  margin-right: 160px;
+  margin-bottom: 80px;
+/* every content a same width */
+}
+
+
+.pillars-content{
+  display: flex;
+  gap: 25px;
+
+}
+
+
+.pillars{
+
+
+  width: 290px;
+  height: auto ;
+  padding: 30px;
+
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  
+  background: rgb(255, 255, 255);
+
+}
+
+.pillars-header{
+  color: rgb(14, 14, 14);
+
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+}
+.pillars-title{
+color: rgba(14, 14, 14, 0.8);
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+ .pillars-description  {
+  color: rgba(14, 14, 14, 0.7);
+ 
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+ }
+
+ /* vision section */
+
+ .vision-container{
+  max-width: 1200px;
+  height: auto; 
+  margin-left: 160px;
+  margin-right: 160px;
+  margin-bottom: 80px;
+ }
+
+ .vision-items{
+  display: flex;
+  gap: 25px;
+
+ }
+
+
+.vision-content-first{
+width: 410.67px;
+box-sizing: border-box;
+border-radius: 16px;
+padding: 24px;
+background: rgba(84, 144, 245, 0.2);
+ }
+
+ .vision-content-sec{
+  width: 410.67px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  padding: 24px;
+  background: rgb(198, 228, 214);
+ }
+
+
+ .vision-content-third{
+  width: 410.67px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  padding: 24px;
+  background: rgb(247, 235, 207);
+ }
+
+
+ .btn-first{
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+
+  gap: 48;
+  padding: 11px 20px 11px 20px;
+  border: none;
+  border-radius: 8px;
+  background: rgb(84, 144, 245);
+ }
+
+ .btn-sec{
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  gap: 48;
+  border: none;
+  padding: 11px 20px 11px 20px;
+
+
+  border-radius: 8px;
+  background: rgb(9, 161, 92);
+ }
+ .btn-third{
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  gap: 48;
+  border: none;
+  padding: 11px 20px 11px 20px;
+  border-radius: 8px;
+  background: rgb(255, 194, 57);
+ }
+
+/* outer look End */
+
+ .vision-header{
+  color: rgb(14, 14, 14);
+  
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+ }
+
+ .vision-subtitle{
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 30px;
+ }
+
+ .vision{
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+ }
+
+ .vision-description{
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+ }
+ 
