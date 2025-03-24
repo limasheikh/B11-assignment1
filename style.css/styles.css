@@ -85,7 +85,7 @@ letter-spacing: 0%;
 text-align: left;
 }
 .banner-subtitle{
-  color: rgb(14, 14, 14);
+color: rgb(14, 14, 14);
 font-size: 40px;
 font-weight: 700;
 line-height: 67px;
@@ -304,7 +304,7 @@ background: rgba(84, 144, 245, 0.2);
  /* adviser section */
 
  .adviser-section{
-  box-sizing: border-box;
+box-sizing: border-box;
 border: 1px solid rgba(14, 14, 14, 0.15);
 border-radius: 16px;
 background: rgb(255, 255, 255);
@@ -312,9 +312,6 @@ margin-top: 32px;
 
 gap: 24;
 padding: 48px 24px 48px 24px;
-
-
-
 
  }
 
@@ -328,7 +325,7 @@ text-align: left;
 
 background: url("../assets/quote-bg.png");
 background-repeat: no-repeat;
-background-position: top left;
+background-position: top  left;
 background-size: 50px 50px ;
 
  }
@@ -491,11 +488,16 @@ margin-bottom: 24px;
 border: 1px solid rgba(14, 14, 14, 0.15);
 border-radius: 16px;
 background: rgb(198, 228, 214);
+} 
+
+
+/* shared style for all button  */
+.all:hover{
+  box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 8px;
+background: rgb(14, 46, 230);
 }
-
-
-
-
 
 
 .btn{
@@ -625,20 +627,23 @@ text-align: center;
 
 .subs-btn{
 
-  align-items: center;
-  gap: 48;
-  padding: 17px 34px 17px 34px;
-
+align-items: center;
+gap: 48;
+padding: 17px 34px 17px 34px;
 border-radius: 0px 8px 8px 0px;
-
 background: rgb(0, 106, 80);
-border: none;
-
+border: none; 
 color: rgb(255, 255, 255);
-
 font-size: 18px;
 font-weight: 600;
 line-height: 22px;
 letter-spacing: 0%;
 text-align: left;
+}
+
+.subs-btn:hover{
+  box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 0px 8px 8px 0px;
+background: rgb(14, 46, 230);
 }
